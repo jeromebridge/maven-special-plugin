@@ -4,7 +4,7 @@
     <groupId>tools.osgi</groupId>
     <artifactId>maven-special-plugin</artifactId>
     <packaging>maven-plugin</packaging>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <name>Maven Special Plugin</name>
 
     <properties>
@@ -57,7 +57,7 @@
         <connection>scm:git:git@github.com:jeromebridge/maven-special-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:jeromebridge/maven-special-plugin.git</developerConnection>
         <url>https://github.com/jeromebridge/maven-special-plugin</url>
-        <tag>HEAD</tag>
+        <tag>1.1</tag>
     </scm>
 
     <build>
