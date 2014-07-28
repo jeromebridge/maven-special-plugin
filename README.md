@@ -1,6 +1,8 @@
 Maven Special Plugin
 ====================
 
+[ ![Codeship Status for jeromebridge/maven-special-plugin](https://www.codeship.io/projects/86b6c940-f83d-0131-6ba1-42ecadc609ef/status)](https://www.codeship.io/projects/28678)
+
 Simple plugin that adds special Life Cycle phases to run adhoc plugins from Maven build.  This plugin could be useful to you if you want a "utility" phase in your Maven build that does nothing but execute the plugins you attach to it.
 
 Add the following repository to your maven pom.xml:
