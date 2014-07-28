@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<lifecycles>
+    <lifecycle>
+        <id>special</id>
+        <phases>
+            <phase>
+                <id>special</id>
+            </phase>
+        </phases>
+    </lifecycle>
+</lifecycles>

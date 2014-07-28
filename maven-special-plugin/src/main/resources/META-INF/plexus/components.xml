@@ -1,0 +1,30 @@
+<component-set>
+    <components>
+        <component>
+            <role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
+            <role-hint>special</role-hint>
+            <implementation>
+                org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping
+            </implementation>
+            <configuration>
+                <phases>
+                    <special></special>
+                </phases>
+            </configuration>
+        </component>
+        <component>
+            <role>org.apache.maven.lifecycle.Lifecycle</role>
+            <implementation>org.apache.maven.lifecycle.Lifecycle</implementation>
+            <role-hint>special</role-hint>
+            <configuration>
+                <id>special</id>
+                <phases>
+                    <phase>special</phase>
+                </phases>
+                <default-phases>
+                    <special></special>
+                </default-phases>
+            </configuration>
+        </component>
+    </components>
+</component-set>
